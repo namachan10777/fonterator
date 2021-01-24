@@ -61,6 +61,7 @@ fn main() {
     let japanese = "フォント付きラスタテキスト";
 
     // Init font, and paths.
+    // To use this function, specify "monofont" feature in Cargo.toml
     let font = font::monospace_font();
 
     // Render English Left Aligned.
